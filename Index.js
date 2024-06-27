@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const port = 8000;
+const port = 5000;
 const otpVerification = require("./verify and login/otpVerification");
 
 app.use(
